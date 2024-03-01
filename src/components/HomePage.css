@@ -1,0 +1,62 @@
+h1 {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explication {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stepOne {
+    border: 3px solid #00497c;
+    border-radius: 10%;
+    padding: 15px;
+    margin: 15px;
+    background-color: #0074c7;
+}
+
+.stepTwo {
+    border: 3px solid #00497c;
+    border-radius: 10%;
+    padding: 15px;
+    margin: 15px;
+    background-color: #0074c7;
+}
+
+.stepThree {
+    border: 3px solid #00497c;
+    border-radius: 10%;
+    padding: 15px;
+    margin: 15px;
+
+    background-color: #0074c7;
+}
+
+
+
+.stepFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.ranking {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border: 3px solid #00497c;
+    border-radius: 10%;
+    padding: 15px;
+    margin: 15px;
+
+    background-color: #82b864;
+}

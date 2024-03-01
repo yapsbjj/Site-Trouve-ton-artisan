@@ -1,0 +1,22 @@
+nav {
+    background-color: #f1f8fc;
+    width: 100%;
+
+}
+
+
+.logo_accueil img {
+    width: 250px;
+    height: 150px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+
+}
