@@ -3,7 +3,9 @@ import '../components/ArtisanProfilePage.css';
 import { useParams } from 'react-router-dom';
 import artisansData from './data/datas.json';
 import Header from './Header';
+import Button from 'react-bootstrap/Button';
 import Footer from './Footer';
+
 
 const ArtisanProfilePage = () => {
     const { id } = useParams();
@@ -48,18 +50,18 @@ const ArtisanProfilePage = () => {
             <div className='form'>
                 <form onSubmit={handleSubmit}>
                     <label>
-                        Nom :
+                        Nom <br />
                         <input type="text" name="name" value={formData.name} onChange={handleChange} />
-                    </label>
+                    </label><br />
                     <label>
-                        Objet :
+                        Objet <br />
                         <input type="text" name="subject" value={formData.subject} onChange={handleChange} />
-                    </label>
+                    </label><br />
                     <label>
-                        Message :
+                        Message <br />
                         <textarea name="message" value={formData.message} onChange={handleChange} />
-                    </label>
-                    <button type="submit">Envoyer</button>
+                    </label><br />
+                    <Button as="input" type="submit" value="Envoyer" />{' '}
                 </form>
             </div>
             <Footer />

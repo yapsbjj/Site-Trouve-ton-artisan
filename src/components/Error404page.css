@@ -1,0 +1,13 @@
+.error-container {
+    display: block;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}

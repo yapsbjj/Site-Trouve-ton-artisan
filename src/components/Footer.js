@@ -27,29 +27,29 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4>Besoin d'aide ?</h4>
                         <ul>
-                            <li><a className='link'>Données personelles</a></li>
-                            <li><a className='link'>Mentions légales</a></li>
-                            <li><a className='link'>Accessibilité</a></li>
-                            <li><a className='link'>Cookies</a></li>
+                            <li className='link'><Link to="/personalData">Données personelles</Link></li>
+                            <li className='link'><Link to="/mentionsLegales"> Mentions légales</Link></li>
+                            <li className='link'><Link to="/accessibility">Accessibilité</Link></li>
+                            <li className='link'><Link to="/cookies">Cookies</Link></li>
                         </ul>
                     </div>
                     <div className="footer-col">
                         <h4>Réseaux sociaux</h4>
                         <div class="social-links">
-                            <a href="https://www.facebook.com/yassine.ramdane/"><img src={LogoFacebook} /></a>
-                            <a href="https://github.com/yapsbjj"><img src={LogoGitHub} /></a>
-                            <a href="https://www.instagram.com/"><img src={LogoInsta} /></a>
-                            <a href="https://www.linkedin.com/in/yassine-ramdane-12845a160/?originalSubdomain=fr"><img src={LogoLinkedin} /></a>
+                            <a href="https://www.facebook.com/yassine.ramdane/"><img src={LogoFacebook} alt='logoFacebook' /></a>
+                            <a href="https://github.com/yapsbjj"><img src={LogoGitHub} alt='logoGitHub' /></a>
+                            <a href="https://www.instagram.com/"><img src={LogoInsta} alt='logoInstagram' /></a>
+                            <a href="https://www.linkedin.com/in/yassine-ramdane-12845a160/?originalSubdomain=fr"><img src={LogoLinkedin} alt='logoLinkedin' /></a>
                         </div>
                     </div>
                     <div className="footer-col">
                         <h4>Où nous trouver?</h4>
                         <ul>
-                            <li><a className='link'>
+                            <li><p className='link'>
                                 101 cours Charlemagne
                                 CS 20033
                                 69269 LYON CEDEX 02
-                                France</a></li>
+                                France</p></li>
                             <li><a href='+33426734000' className='link'>04 26 73 40 00</a></li>
                         </ul>
                     </div>
